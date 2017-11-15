@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *topView;
+@property (weak, nonatomic) IBOutlet UIView *middleView;
+@property (weak, nonatomic) IBOutlet UIView *bottomView;
+- (IBAction)click:(id)sender;
 
 @end
 

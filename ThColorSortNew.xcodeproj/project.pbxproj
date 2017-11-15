@@ -15,6 +15,19 @@
 		B8CF43841FB7E48000099320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CF43821FB7E48000099320 /* LaunchScreen.storyboard */; };
 		B8CF438F1FB7E48000099320 /* ThColorSortNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF438E1FB7E48000099320 /* ThColorSortNewTests.m */; };
 		B8CF439A1FB7E48000099320 /* ThColorSortNewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF43991FB7E48000099320 /* ThColorSortNewUITests.m */; };
+		B8CF43AB1FB7E76500099320 /* TopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF43AA1FB7E76500099320 /* TopManager.m */; };
+		B8CF43AE1FB7E77A00099320 /* MiddleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF43AD1FB7E77A00099320 /* MiddleManager.m */; };
+		B8CF43B11FB7E78A00099320 /* BottomManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF43B01FB7E78A00099320 /* BottomManager.m */; };
+		B8CF43B51FB7F4C200099320 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF43B41FB7F4C200099320 /* Subject.m */; };
+		B8CF43B71FB7F8A300099320 /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8CF43B61FB7F8A300099320 /* TopView.xib */; };
+		B8CF43B91FB7F8C100099320 /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8CF43B81FB7F8C100099320 /* BottomView.xib */; };
+		B8CF43BE1FB8067000099320 /* BaseUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF43BD1FB8067000099320 /* BaseUI.m */; };
+		B8CF43C21FB806CB00099320 /* LoginUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF43C11FB806CB00099320 /* LoginUI.m */; };
+		B8CF43C51FB8075A00099320 /* DeviceListUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF43C41FB8075A00099320 /* DeviceListUI.m */; };
+		B8CF43C71FB8087E00099320 /* loginUi.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8CF43C61FB8087E00099320 /* loginUi.xib */; };
+		B8CF43C91FB80F0400099320 /* deviceListUi.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8CF43C81FB80F0400099320 /* deviceListUi.xib */; };
+		B8D269E51FBBDC630088B678 /* ResponderAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D269E41FBBDC630088B678 /* ResponderAuto.m */; };
+		E19A389D091D65AE2DFF407D /* libPods-ThColorSortNew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B584FFEE17B2028217A9DFC2 /* libPods-ThColorSortNew.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27F857A46092C0E44ED24D80 /* Pods-ThColorSortNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThColorSortNew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThColorSortNew/Pods-ThColorSortNew.debug.xcconfig"; sourceTree = "<group>"; };
+		7ABF0E14AB1DF48BFBE8007B /* Pods-ThColorSortNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThColorSortNew.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThColorSortNew/Pods-ThColorSortNew.release.xcconfig"; sourceTree = "<group>"; };
+		B584FFEE17B2028217A9DFC2 /* libPods-ThColorSortNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThColorSortNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CF43711FB7E48000099320 /* ThColorSortNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThColorSortNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CF43751FB7E48000099320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8CF43771FB7E48000099320 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +67,26 @@
 		B8CF43951FB7E48000099320 /* ThColorSortNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThColorSortNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CF43991FB7E48000099320 /* ThColorSortNewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThColorSortNewUITests.m; sourceTree = "<group>"; };
 		B8CF439B1FB7E48000099320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CF43A91FB7E76500099320 /* TopManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopManager.h; sourceTree = "<group>"; };
+		B8CF43AA1FB7E76500099320 /* TopManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopManager.m; sourceTree = "<group>"; };
+		B8CF43AC1FB7E77A00099320 /* MiddleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleManager.h; sourceTree = "<group>"; };
+		B8CF43AD1FB7E77A00099320 /* MiddleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleManager.m; sourceTree = "<group>"; };
+		B8CF43AF1FB7E78A00099320 /* BottomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomManager.h; sourceTree = "<group>"; };
+		B8CF43B01FB7E78A00099320 /* BottomManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomManager.m; sourceTree = "<group>"; };
+		B8CF43B31FB7F4C200099320 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		B8CF43B41FB7F4C200099320 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		B8CF43B61FB7F8A300099320 /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
+		B8CF43B81FB7F8C100099320 /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		B8CF43BC1FB8067000099320 /* BaseUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUI.h; sourceTree = "<group>"; };
+		B8CF43BD1FB8067000099320 /* BaseUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUI.m; sourceTree = "<group>"; };
+		B8CF43C01FB806CB00099320 /* LoginUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUI.h; sourceTree = "<group>"; };
+		B8CF43C11FB806CB00099320 /* LoginUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUI.m; sourceTree = "<group>"; };
+		B8CF43C31FB8075A00099320 /* DeviceListUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceListUI.h; sourceTree = "<group>"; };
+		B8CF43C41FB8075A00099320 /* DeviceListUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceListUI.m; sourceTree = "<group>"; };
+		B8CF43C61FB8087E00099320 /* loginUi.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginUi.xib; sourceTree = "<group>"; };
+		B8CF43C81FB80F0400099320 /* deviceListUi.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = deviceListUi.xib; sourceTree = "<group>"; };
+		B8D269E31FBBDC630088B678 /* ResponderAuto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponderAuto.h; sourceTree = "<group>"; };
+		B8D269E41FBBDC630088B678 /* ResponderAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponderAuto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19A389D091D65AE2DFF407D /* libPods-ThColorSortNew.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +115,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37F413AFB4580F3BADB6B7C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B584FFEE17B2028217A9DFC2 /* libPods-ThColorSortNew.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2263212636C8E7A67700AF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27F857A46092C0E44ED24D80 /* Pods-ThColorSortNew.debug.xcconfig */,
+				7ABF0E14AB1DF48BFBE8007B /* Pods-ThColorSortNew.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B8CF43681FB7E48000099320 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +139,8 @@
 				B8CF438D1FB7E48000099320 /* ThColorSortNewTests */,
 				B8CF43981FB7E48000099320 /* ThColorSortNewUITests */,
 				B8CF43721FB7E48000099320 /* Products */,
+				B2263212636C8E7A67700AF3 /* Pods */,
+				37F413AFB4580F3BADB6B7C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +157,12 @@
 		B8CF43731FB7E48000099320 /* ThColorSortNew */ = {
 			isa = PBXGroup;
 			children = (
+				B8CF43BF1FB8068D00099320 /* xib */,
+				B8CF43B21FB7E7CE00099320 /* manager */,
+				B8CF43A81FB7E6B000099320 /* ViewController */,
+				B8CF43A71FB7E6A200099320 /* UI */,
 				B8CF43771FB7E48000099320 /* AppDelegate.h */,
 				B8CF43781FB7E48000099320 /* AppDelegate.m */,
-				B8CF437A1FB7E48000099320 /* ViewController.h */,
-				B8CF437B1FB7E48000099320 /* ViewController.m */,
 				B8CF437D1FB7E48000099320 /* Main.storyboard */,
 				B8CF43801FB7E48000099320 /* Assets.xcassets */,
 				B8CF43821FB7E48000099320 /* LaunchScreen.storyboard */,
@@ -140,6 +198,56 @@
 			path = ThColorSortNewUITests;
 			sourceTree = "<group>";
 		};
+		B8CF43A71FB7E6A200099320 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B8CF43BC1FB8067000099320 /* BaseUI.h */,
+				B8CF43BD1FB8067000099320 /* BaseUI.m */,
+				B8CF43C01FB806CB00099320 /* LoginUI.h */,
+				B8CF43C11FB806CB00099320 /* LoginUI.m */,
+				B8CF43C31FB8075A00099320 /* DeviceListUI.h */,
+				B8CF43C41FB8075A00099320 /* DeviceListUI.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B8CF43A81FB7E6B000099320 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B8CF437A1FB7E48000099320 /* ViewController.h */,
+				B8CF437B1FB7E48000099320 /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B8CF43B21FB7E7CE00099320 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				B8CF43A91FB7E76500099320 /* TopManager.h */,
+				B8CF43AA1FB7E76500099320 /* TopManager.m */,
+				B8CF43AC1FB7E77A00099320 /* MiddleManager.h */,
+				B8CF43AD1FB7E77A00099320 /* MiddleManager.m */,
+				B8CF43AF1FB7E78A00099320 /* BottomManager.h */,
+				B8CF43B01FB7E78A00099320 /* BottomManager.m */,
+				B8CF43B31FB7F4C200099320 /* Subject.h */,
+				B8CF43B41FB7F4C200099320 /* Subject.m */,
+				B8D269E31FBBDC630088B678 /* ResponderAuto.h */,
+				B8D269E41FBBDC630088B678 /* ResponderAuto.m */,
+			);
+			name = manager;
+			sourceTree = "<group>";
+		};
+		B8CF43BF1FB8068D00099320 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				B8CF43B61FB7F8A300099320 /* TopView.xib */,
+				B8CF43B81FB7F8C100099320 /* BottomView.xib */,
+				B8CF43C61FB8087E00099320 /* loginUi.xib */,
+				B8CF43C81FB80F0400099320 /* deviceListUi.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8CF439E1FB7E48000099320 /* Build configuration list for PBXNativeTarget "ThColorSortNew" */;
 			buildPhases = (
+				55D3488339D7B0824780546E /* [CP] Check Pods Manifest.lock */,
 				B8CF436D1FB7E48000099320 /* Sources */,
 				B8CF436E1FB7E48000099320 /* Frameworks */,
 				B8CF436F1FB7E48000099320 /* Resources */,
+				AD15F7D27F192A2A1FBE8D7C /* [CP] Embed Pods Frameworks */,
+				8F1766691920E2F90A012BE9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +318,7 @@
 				TargetAttributes = {
 					B8CF43701FB7E48000099320 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C6SDKN2KVT;
 						ProvisioningStyle = Automatic;
 					};
 					B8CF43891FB7E48000099320 = {
@@ -247,7 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8CF43841FB7E48000099320 /* LaunchScreen.storyboard in Resources */,
+				B8CF43C71FB8087E00099320 /* loginUi.xib in Resources */,
 				B8CF43811FB7E48000099320 /* Assets.xcassets in Resources */,
+				B8CF43B91FB7F8C100099320 /* BottomView.xib in Resources */,
+				B8CF43C91FB80F0400099320 /* deviceListUi.xib in Resources */,
+				B8CF43B71FB7F8A300099320 /* TopView.xib in Resources */,
 				B8CF437F1FB7E48000099320 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +384,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55D3488339D7B0824780546E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1766691920E2F90A012BE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThColorSortNew/Pods-ThColorSortNew-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD15F7D27F192A2A1FBE8D7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThColorSortNew/Pods-ThColorSortNew-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8CF436D1FB7E48000099320 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B8CF437C1FB7E48000099320 /* ViewController.m in Sources */,
+				B8CF43AE1FB7E77A00099320 /* MiddleManager.m in Sources */,
+				B8CF43C21FB806CB00099320 /* LoginUI.m in Sources */,
+				B8CF43AB1FB7E76500099320 /* TopManager.m in Sources */,
 				B8CF43791FB7E48000099320 /* AppDelegate.m in Sources */,
+				B8CF43BE1FB8067000099320 /* BaseUI.m in Sources */,
+				B8CF43B51FB7F4C200099320 /* Subject.m in Sources */,
+				B8CF43B11FB7E78A00099320 /* BottomManager.m in Sources */,
+				B8D269E51FBBDC630088B678 /* ResponderAuto.m in Sources */,
 				B8CF43761FB7E48000099320 /* main.m in Sources */,
+				B8CF43C51FB8075A00099320 /* DeviceListUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +594,12 @@
 		};
 		B8CF439F1FB7E48000099320 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F857A46092C0E44ED24D80 /* Pods-ThColorSortNew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C6SDKN2KVT;
 				INFOPLIST_FILE = ThColorSortNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = taihe.ThColorSortNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +608,12 @@
 		};
 		B8CF43A01FB7E48000099320 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABF0E14AB1DF48BFBE8007B /* Pods-ThColorSortNew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C6SDKN2KVT;
 				INFOPLIST_FILE = ThColorSortNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = taihe.ThColorSortNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +685,7 @@
 				B8CF43A01FB7E48000099320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8CF43A11FB7E48000099320 /* Build configuration list for PBXNativeTarget "ThColorSortNewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +694,7 @@
 				B8CF43A31FB7E48000099320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8CF43A41FB7E48000099320 /* Build configuration list for PBXNativeTarget "ThColorSortNewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +703,7 @@
 				B8CF43A61FB7E48000099320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

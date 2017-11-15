@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
-
+#import "TopManager.h"
+#import "MiddleManager.h"
+#import "BottomManager.h"
+#import "LoginUI.h"
 @interface ViewController ()
+
+
 
 @end
 
@@ -17,6 +22,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [_middleView setUserInteractionEnabled:YES];
+    [[TopManager shareInstance] attachView:_topView];
+    
+    [[MiddleManager shareInstance] attachView:_middleView];
+    
+    [[BottomManager shareInstance] attachView:_bottomView];
+    
+    
+    [[MiddleManager shareInstance] attachObserver:[TopManager shareInstance]];
+    
+    [[MiddleManager shareInstance] attachObserver:[BottomManager shareInstance]];
+    
+    
+    [[MiddleManager shareInstance] changeUi:[LoginUI class]];
+    
+    
+    
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    
 }
 
 
@@ -26,4 +52,7 @@
 }
 
 
+- (IBAction)click:(id)sender {
+    NSLog(@"........");
+}
 @end
